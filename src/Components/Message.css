@@ -1,0 +1,26 @@
+* {
+  transition: 0.2s ease-in-out;
+  font-family: 'Kiwi Maru', serif !important;
+
+}
+
+.mssg {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+  border-radius: 15px;
+}
+
+.msg__user {
+  margin-left: auto;
+  color: #fff;
+  text-align: left !important;
+}
+
+.msg__userCard {
+  background: #779AB9 !important;
+}
+
+.msg__guestCard {
+  background: #fff !important;
+}

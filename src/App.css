@@ -1,38 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kiwi Maru', serif !important;
+}
+
 .App {
   text-align: center;
+  max-width: 900px;
+  margin: 0rem auto;
+  padding: 1.5rem 0rem 0rem 0rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.light {
+  width: 100%;
+  background: #fff;
+  padding: 2rem 0rem;
+  min-height: 96vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.lighticon {
+  font-size: 1.3rem;
+  padding: 0.8rem;
+  color: #779AB9;
+}
+
+.dark {
+  width: 100%;
+  background: #333;
+  padding: 2rem 0rem;
+  min-height: 96vh;
+}
+
+.darkicon {
+  font-size: 1.3rem;
+  color: #333;
+  padding: 0.8rem;
+}
+
+.app__form {
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 97%;
+  z-index: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #779AB9;
+}
+
+h1 {
+  font-size: 2rem !important;
+  padding: 0.3rem;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app__input {
+  /* to use the entire space */
+  flex: 1; 
+}
+
+.icon__btn {
+  flex: 0;
+}
+
+@media(max-width: 900px){
+  * {
+    font-size: 1.2rem !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 550px) {
+  * {
+    font-size: 1rem !important;
   }
 }
