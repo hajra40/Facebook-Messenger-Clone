@@ -6,6 +6,12 @@
 ![Screenshot (140)](https://user-images.githubusercontent.com/68770929/112840336-d3682000-90bc-11eb-9b17-9baceafba7df.png)
 ![Screenshot (139)](https://user-images.githubusercontent.com/68770929/112840362-da8f2e00-90bc-11eb-97af-09a7c0147c3e.png)
 
+# Download/Clone
+1. git clone https://github.com/hajra40/Facebook-Messenger-Clone.git
+2. npm install
+3. cd Facebook-Messenger-Clone
+4. npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
